@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*			font-family: 'Roboto', sans-serif;			*/
+
+.bodyPage {
+	margin: 0 auto;
+	background: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	box-shadow: 0px 4px 30px -20px rgba(0, 0, 0, 0.3);
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px;
+	flex-wrap: wrap;
+	display: flex;
+	margin: 0;
+}
+
+.navMenu {
+	display: flex;
+	background: #FFFFFF;
+}
+
+.listNav {
+	list-style: none;
+	display: flex;
+	align-content: center;
+	padding: 0;
+}
+
+.listNav a {
+	background-color: rgba(10, 153, 254, 0.1);
+	color: #0A99FE;
+	border-radius: 5px;
+	margin: 0 10px;
+	padding: 5px 30px;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 20px;
+	height: 40px;
+	width: 150px;
+}
+
+.listNav a:hover,
+.listNav a:focus {
+	color: #FFFFFF;
+	background-color: #0A99FE;
+}
+
+.myMain {
+	margin: 0 20px;
+	padding: 20px 50px;
+}
+
+.myMain li {
+	justify-content: space-between;
+	background-color: #F8F8F8;
+	flex-direction: column;
+	box-sizing: border-box;
+	align-content: center;
+	border-radius: 10px;
+	align-items: center;
+	list-style: none;
+	margin: 0 7vw;
+	display: flex;
+	height: 275px;
+	width: 207px;
+}
+
+.imageCard {
+	height: 60%;
+	border-radius: 10px 10px 0 0;
+	width: 207px;
+}
+
+.sectionFrames {
+	overflow-x: auto;
+}
+
+.paintingsTitle {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+
+.framesList {
+	display: flex;
+	padding: 0;
+	width: 100%;
+}
+
+.framesList li h4 {
+	display: inline-block;
+	text-align: center;
+	color: #1B1B1B;
+	font-weight: 500;
+	font-size: 20px;
+	margin: 15px 15px;
+}
+
+.framesList li p {
+	margin: 10px 15px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #868383;
+}
+
+.sectionFigures {
+	overflow-x: auto;
+}
+
+.actionFiguresTitle {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+
+.figuresList {
+	display: flex;
+	padding: 0;
+	width: auto;
+}
+
+.figuresList li h4 {
+	display: inline-block;
+	text-align: center;
+	color: #1B1B1B;
+	font-weight: 500;
+	font-size: 20px;
+	margin: 15px 15px;
+}
+
+.figuresList li p {
+	margin: 10px 15px;
+	font-weight: 400;
+	color: #868383;
+	font-size: 16px;
+}
+
+.footer {
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	padding: 20px;
+	opacity: 0.2;
+	margin: 0;
+}
+
+.footer img {
+	width: 20px;
+}
