@@ -32,7 +32,7 @@ let items = [
 	{
 		image: './assets/img/painting/personagem.jpg',
 		name: 'Personagem Vintage',
-		price: '$ 80,00',
+		price: 'R$ 380,00',
 		type: 'frames'
 	},
 ];
