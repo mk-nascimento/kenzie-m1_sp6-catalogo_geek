@@ -57,64 +57,40 @@
 	background-color: #F8F8F8;
 	border-radius: 10px;
 	list-style: none;
-	margin: 0 7vw;
+	margin: 0 3vw;
 	height: 275px;
 	width: 207px;
 }
 
 .imageCard {
 	border-radius: 10px 10px 0 0;
-	height: 60%;
-	width: 100%;
+	object-fit: fill;
+	height: 165px;
+	width: 207px;
 }
 
-.sectionFrames {
-	overflow-x: auto;
-}
-
-.paintingsTitle {
-	font-size: 20px;
-	font-weight: 400;
-	font-family: 'Roboto', sans-serif;
-}
-
-.framesList {
-	display: flex;
-	padding: 0;
-	width: 100%;
-}
-
-.framesList li h4 {
-	text-align: center;
-	color: #1B1B1B;
-	font-weight: 500;
-	font-size: 20px;
-	margin: 15px 15px;
-}
-
-.framesList li p {
-	text-align: center;
-	font-weight: 400;
-	font-size: 16px;
-	color: #868383;
-}
-
+.sectionFrames,
 .sectionFigures {
 	overflow-x: auto;
 }
 
+.paintingsTitle,
 .actionFiguresTitle {
+	margin: 25px;
+	padding: 10px 0 0 0;
 	font-size: 20px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 }
 
+.framesList,
 .figuresList {
-	display: flex;
-	padding: 0;
-	width: auto;
+	display: inline-flex;
+	padding: 25px 0;
+	margin: 40px 5px;
 }
 
+.framesList li h4,
 .figuresList li h4 {
 	text-align: center;
 	color: #1B1B1B;
@@ -123,11 +99,12 @@
 	margin: 15px 15px;
 }
 
+.framesList li p,
 .figuresList li p {
 	text-align: center;
 	font-weight: 400;
-	color: #868383;
 	font-size: 16px;
+	color: #868383;
 }
 
 .footer {
